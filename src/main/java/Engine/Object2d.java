@@ -46,6 +46,6 @@ public class Object2d extends ShaderProgram{
 
         glLineWidth(1);
         glPointSize(0);
-        glDrawArrays(GL_TRIANGLES,0,vertices.size());
+        glDrawArrays(GL_TRIANGLES/*GL_LINE_LOOP*/,0,vertices.size());
     }
 }
